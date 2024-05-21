@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<title>Comandos Git Categorizados</title>
+</head>
+<body>
+<h1>Comandos Git Categorizados</h1>
+
+<h2>1. Configuração Básica e Gerenciamento de Repositório</h2>
+<ul>
+  <li><strong>Inicialização</strong>
+    <ul>
+      <li><code>git init</code> - Inicializa um novo repositório Git local.</li>
+      <li><code>git clone</code> - Clona um repositório Git existente.</li>
+    </ul>
+  </li>
+  <li><strong>Configuração</strong>
+    <ul>
+      <li><code>git config</code> - Configura opções de usuário, como email e nome do usuário.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>2. Manipulação Básica de Arquivos</h2>
+<ul>
+  <li><strong>Adicionar e Remover</strong>
+    <ul>
+      <li><code>git add</code> - Adiciona arquivos à área de staging.</li>
+      <li><code>git rm</code> - Remove arquivos do diretório de trabalho e da área de staging.</li>
+    </ul>
+  </li>
+  <li><strong>Status e Diferenças</strong>
+    <ul>
+      <li><code>git status</code> - Mostra o estado dos arquivos no diretório de trabalho.</li>
+      <li><code>git diff</code> - Mostra as diferenças entre arquivos e commits.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>3. Commits e Alterações</h2>
+<ul>
+  <li><strong>Committing</strong>
+    <ul>
+      <li><code>git commit</code> - Grava alterações na base de dados do Git.</li>
+    </ul>
+  </li>
+  <li><strong>Revertendo Mudanças</strong>
+    <ul>
+      <li><code>git revert</code> - Reverte mudanças de um commit anterior.</li>
+      <li><code>git reset</code> - Reseta o HEAD para um estado anterior específico.</li>
+      <li><code>git clean</code> - Remove arquivos não rastreados do diretório de trabalho.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>4. Branching e Merging</h2>
+<ul>
+  <li><strong>Gerenciamento de Branches</strong>
+    <ul>
+      <li><code>git branch</code> - Lista, cria ou deleta branches.</li>
+    </ul>
+  </li>
+  <li><strong>Mudança de Branches</strong>
+    <ul>
+      <li><code>git checkout</code> - Troca de branch ou restaura arquivos do diretório de trabalho.</li>
+    </ul>
+  </li>
+  <li><strong>Merging</strong>
+    <ul>
+      <li><code>git merge</code> - Junta duas ou mais histórias de desenvolvimento.</li>
+    </ul>
+  </li>
+  <li><strong>Rebasing</strong>
+    <ul>
+      <li><code>git rebase</code> - Aplica mudanças de uma branch em outra.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>5. Trabalhando com Repositórios Remotos</h2>
+<ul>
+  <li><strong>Push e Pull</strong>
+    <ul>
+      <li><code>git push</code> - Envia alterações locais para o repositório remoto.</li>
+      <li><code>git pull</code> - Atualiza o repositório local com as mudanças do repositório remoto.</li>
+    </ul>
+  </li>
+  <li><strong>Gerenciamento de Remotos</strong>
+    <ul>
+      <li><code>git remote</code> - Gerencia conjuntos de rastreamento de repositórios remotos.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>6. Inspeção e Comparação</h2>
+<ul>
+  <li><strong>Logs</strong>
+    <ul>
+      <li><code>git log</code
