@@ -7,12 +7,7 @@
 
 <h1>Instalação</h1>
 <ul>
-  <li><strong>Git</strong>
-    <ul>
-      <p>https://git-scm.com/</p>
-    </ul>
-  </li>
-  
+  <li><strong>Git: <p>https://git-scm.com/</p></strong></li>
 </ul>
   
 <h1>Comandos Git</h1>
